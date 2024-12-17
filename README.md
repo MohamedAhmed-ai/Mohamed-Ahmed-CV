@@ -1,46 +1,129 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohamed Ahmed CV</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Mohamed Ahmed Mohamed Hassan</h1>
-        <p>Assistant Lecturer - October 6 University</p>
-    </header>
+/* Font and Base Styling */
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('fonts/CaviarDreams.ttf') format('truetype');
+}
 
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li>2026-2023: PhD in Digital Architecture and Building Technology - Cairo University</li>
-            <li>2022-2018: MSc in Building Technology - Cairo University</li>
-            <li>2018-2013: BSc in Architectural Engineering - October University for Modern Sciences and Arts (MSA)</li>
-        </ul>
-    </section>
+body {
+    font-family: 'Caviar Dreams', sans-serif;
+    color: #96989C;
+    line-height: 1.8;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
 
-    <section>
-        <h2>Work Experience</h2>
-        <ul>
-            <li>2023 - Present: Assistant Lecturer - October 6 University</li>
-            <li>2020-2023: Assistant Lecturer - Cairo Higher Institute</li>
-            <li>2018-2022: Architect - WAMA Consultant Company</li>
-        </ul>
-    </section>
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Software: Rhino, Grasshopper, AutoCAD, Revit, Climate Studio, ArchiCAD</li>
-            <li>Rendering: 3ds Max, V-Ray, Lumion</li>
-            <li>Video Editing: Adobe Premiere Pro, After Effects</li>
-        </ul>
-    </section>
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: #333;
+}
 
-    <footer>
-        <p>Contact: <a href="mailto:mohamed.ahmed.hassank@gmail.com">mohamed.ahmed.hassank@gmail.com</a></p>
-    </footer>
-</body>
-</html>
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+section {
+    background: white;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #96989C;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.item .date {
+    width: 20%;
+    font-weight: bold;
+    color: #333;
+}
+
+.item p {
+    width: 75%;
+}
+/* Font and Base Styling */
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('fonts/CaviarDreams.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Caviar Dreams', sans-serif;
+    color: #96989C;
+    line-height: 1.8;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+section {
+    background: white;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #96989C;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.item .date {
+    width: 20%;
+    font-weight: bold;
+    color: #333;
+}
+
+.item p {
+    width: 75%;
+}
+/project-folder
+  ├── index.html
+  ├── style.css
+  ├── fonts/
+      ├── CaviarDreams.ttf
