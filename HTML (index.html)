@@ -9,38 +9,39 @@
 <body>
     <header>
         <h1>Mohamed Ahmed Mohamed Hassan</h1>
-        <p>Assistant Lecturer - October 6 University</p>
+        <p>Assistant Lecturer | Architect</p>
     </header>
 
-    <section>
+    <section class="education">
         <h2>Education</h2>
-        <ul>
-            <li>2026-2023: PhD in Digital Architecture and Building Technology - Cairo University</li>
-            <li>2022-2018: MSc in Building Technology - Cairo University</li>
-            <li>2018-2013: BSc in Architectural Engineering - October University for Modern Sciences and Arts (MSA)</li>
-        </ul>
+        <div class="item">
+            <span class="date">2026-2023</span>
+            <p><strong>PhD in Digital Architecture</strong>, Cairo University</p>
+        </div>
+        <div class="item">
+            <span class="date">2022-2018</span>
+            <p><strong>MSc in Building Technology</strong>, Cairo University</p>
+        </div>
+        <div class="item">
+            <span class="date">2018-2013</span>
+            <p><strong>BSc in Architectural Engineering</strong>, MSA University</p>
+        </div>
     </section>
 
-    <section>
-        <h2>Work Experience</h2>
-        <ul>
-            <li>2023 - Present: Assistant Lecturer - October 6 University</li>
-            <li>2020-2023: Assistant Lecturer - Cairo Higher Institute</li>
-            <li>2018-2022: Architect - WAMA Consultant Company</li>
-        </ul>
+    <section class="experience">
+        <h2>Professional Experience</h2>
+        <div class="item">
+            <span class="date">2023 - Present</span>
+            <p><strong>Assistant Lecturer</strong>, October 6 University</p>
+        </div>
+        <div class="item">
+            <span class="date">2020 - 2023</span>
+            <p><strong>Teaching Assistant</strong>, Cairo Higher Institute</p>
+        </div>
+        <div class="item">
+            <span class="date">2018 - 2022</span>
+            <p><strong>Architect</strong>, WAMA Consultant Company</p>
+        </div>
     </section>
-
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Software: Rhino, Grasshopper, AutoCAD, Revit, Climate Studio, ArchiCAD</li>
-            <li>Rendering: 3ds Max, V-Ray, Lumion</li>
-            <li>Video Editing: Adobe Premiere Pro, After Effects</li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>Contact: <a href="mailto:mohamed.ahmed.hassank@gmail.com">mohamed.ahmed.hassank@gmail.com</a></p>
-    </footer>
 </body>
 </html>
