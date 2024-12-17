@@ -1,0 +1,51 @@
+/* Import the Caviar Dreams font */
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('fonts/CaviarDreams.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Caviar Dreams', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #96989C;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #f4f4f4;
+    font-size: 0.9em;
+}
